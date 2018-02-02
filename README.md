@@ -4,28 +4,27 @@ Mi Pad 3
 This branch is for building TWRP.
 
 ### Thanks to:
- * CyanogenMod team
- * Deepflex
- * Wuxianlin
- * Ferhung
- * SHVED
- * Xen0n
- * JonnyXDA
- * olegsvs
- * Visi0nary
- * andyrichardson
  * Team M.A.D
- * vgdn1942
+ * rakomancha
 
 ### To build: 
 ```
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
 
-repo sync
+$ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-7.1
 
-. build/envsetup.sh
+To initialize a shallow clone, which will save even more space, use a command like this:
 
-lunch lineage_cappu-userdebug
+$ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-7.1
+
+After that sync your sources:
+
+$ repo sync
+
+Build your recovery:
+
+$ source build/envsetup.sh
+
+& lunch cappu-eng
 
 make clean && make recoveryimage
 ```
