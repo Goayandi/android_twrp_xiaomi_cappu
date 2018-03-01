@@ -29,7 +29,11 @@ This branch is for building TWRP.
  * rakomancha
 
 ### To build: 
+
 ```
+$ mkdir twrp
+
+$ cd twrp
 
 $ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-7.1
 
@@ -40,6 +44,8 @@ $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifes
 After that sync your sources:
 
 $ repo sync
+
+Download or clone this repository, go to /twrp/device and create xiaomi/cappu. Copy this repo to your created folder
 
 Build your recovery:
 
