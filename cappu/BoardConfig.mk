@@ -69,18 +69,24 @@ TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_EXCLUDE_SUPERSU := true
 TW_DEFAULT_LANGUAGE := en
+<<<<<<< HEAD
 TW_EXTRA_LANGUAGES := true
+=======
+>>>>>>> cbc25ecd5d2158856abf5b589acf33a55d968d0e
 # Very important for this device
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := false
 TW_NO_EXFAT := false
 
+<<<<<<< HEAD
 #Additional flags from lenovo A7010a
 TW_USE_TOOLBOX := true
 TW_FLASH_FROM_STORAGE := true
 TW_NEW_ION_HEAP := true
 TWHAVE_SELINUX := true
 
+=======
+>>>>>>> cbc25ecd5d2158856abf5b589acf33a55d968d0e
 # Screenshots
 TW_INCLUDE_FB2PNG := true
 
