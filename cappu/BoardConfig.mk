@@ -77,6 +77,8 @@ TW_EXTRA_LANGUAGES := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := false
 TW_NO_EXFAT := false
+TW_INCLUDE_FUSE_EXFAT := true # exFAT FS Support
+TW_INCLUDE_FUSE_NTFS := true  # NTFS Support
 
 <<<<<<< HEAD
 #Additional flags from lenovo A7010a
